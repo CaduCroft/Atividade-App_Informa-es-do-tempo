@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o componente Detalhes do Clima */
+.details-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.details-container p {
+    margin: 10px 0;
+}
+
+/* Estilos para o componente Informação do Clima */
+.informacao-clima {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.informacao-clima h3 {
+    margin-top: 0;
+}
+
+.informacao-clima button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.informacao-clima button:hover {
+    background-color: #0056b3;
+}
+
+.informacao-clima p.error-message {
+    color: red;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Estilos para o componente Seletor de Cidade */
+.seletor-cidade {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.seletor-cidade h2 {
+    margin-top: 0;
+}
+
+.seletor-cidade button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.seletor-cidade button:hover {
+    background-color: #0056b3;
+}
+
+.seletor-cidade p.error-message {
+    color: red;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Estilos para a página HTML principal */
+.app-root {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}

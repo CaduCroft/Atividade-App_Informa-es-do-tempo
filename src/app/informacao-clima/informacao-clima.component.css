@@ -1,0 +1,32 @@
+/* Estilos para o componente Informação do Clima */
+.informacao-clima {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.informacao-clima h3 {
+  margin-top: 0;
+}
+
+.informacao-clima button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.informacao-clima button:hover {
+  background-color: #0056b3;
+}
+
+.informacao-clima p.error-message {
+  color: red;
+  font-style: italic;
+  margin-top: 10px;
+}
